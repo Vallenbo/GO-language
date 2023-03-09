@@ -12,8 +12,8 @@ var bool1 bool //布尔型，只能进行判断
 
 func main() {
 
-	fmt.Printf("八进制数%d\n", b1)  //63
-	fmt.Printf("十进制数%d\n", a1)  //10
+	fmt.Printf("八进制数%d\n", b1)   //63
+	fmt.Printf("十进制数%d\n", a1)   //10
 	fmt.Printf("十六进制数%d\n", c1) //255
 
 	//浮点型
@@ -47,4 +47,6 @@ func main() {
 	for _, s01 := range ss { //打印单个字符
 		fmt.Printf("%c", s01) //hello你好
 	}
+
+	// #strings.Contains(str1, "s") //判断字符串中 是否有指定字符
 }

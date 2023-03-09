@@ -21,9 +21,9 @@ func forDemo() {
 func switchDemo1() { //switch 条件判断
 	finger := 3
 	switch finger {
-	case 1:
+	case 1, 9: //多个条件用 ， 进行分隔
 		fmt.Println("大拇指")
-	case 2:
+	case 'e': //字符用单引号，"asd" 字符串用双引号
 		fmt.Println("食指")
 		fallthrough //fallthrough语法可以执行满足条件的case的下一个case，是为了兼容C语言中的case设计的。
 	case 3:

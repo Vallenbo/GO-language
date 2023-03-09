@@ -38,6 +38,11 @@ func testScan() { //2、输入函数
 	_, err = fmt.Scanf("1:%s 2:%d 3:%t", &name, &age, &married)    //format指定格式 //1:小王子 2:28 3:false
 	fmt.Printf("name:%s age:%d married:%t \n", name, age, married) //name:小王子 age:28 married:false
 
+	_, err = fmt.Scanln(&name, &age, &married)
+	if err != nil {
+		return
+	}
+	fmt.Printf("扫描结果 name:%s age:%d married:%t \n", name, age, married)
 	if err != nil {
 		return
 	}
