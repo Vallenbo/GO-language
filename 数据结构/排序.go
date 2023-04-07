@@ -30,7 +30,7 @@ func SelectionSort(arr []int) { //选择排序：先遍历整个数组选出最�
 	}
 }
 
-func InsertionSort(arr []int) { //插入排序:从左选两个数，依次向右遍历，将遍历好的数往左放
+func InsertionSort(arr []int) { //插入排序:从左选两个数进行排序，依次向右遍历+1，使整个左边的排列有序
 	n := len(arr)
 	for i := 1; i < n; i++ { // 外层循环控制插入次数
 		key := arr[i] // 缓存当前需要插入的元素
@@ -42,7 +42,7 @@ func InsertionSort(arr []int) { //插入排序:从左选两个数，依次向右
 	}
 }
 
-func QuickSort(arr []int, left, right int) { // QuickSort 快速排序算法实现
+func QuickSort(arr []int, left, right int) { // 快速排序
 	if left < right {
 		pivot := partition(arr, left, right) // 分区
 		QuickSort(arr, left, pivot-1)        // 递归排序左右子数组
@@ -50,7 +50,7 @@ func QuickSort(arr []int, left, right int) { // QuickSort 快速排序算法实�
 	}
 }
 
-func partition(arr []int, left, right int) int { // partition 分区函数，用于快速排序
+func partition(arr []int, left, right int) int { // 分区函数，用于快速排序
 	pivot := arr[right]             // 取最后一个元素作为基准值
 	i := left - 1                   // 定义初始分割点
 	for j := left; j < right; j++ { // 循环遍历区间内的所有元素
@@ -63,7 +63,7 @@ func partition(arr []int, left, right int) int { // partition 分区函数，用
 	return i + 1                                // 返回分割点
 }
 
-func MergeSort(arr []int) []int { // MergeSort 归并排序算法实现
+func MergeSort(arr []int) []int { // 归并排序
 	if len(arr) == 1 { // 判断数组长度是否为1
 		return arr
 	}
@@ -74,7 +74,7 @@ func MergeSort(arr []int) []int { // MergeSort 归并排序算法实现
 	return merge(left, right) // 合并左右子数组
 }
 
-func merge(left, right []int) []int { // merge 辅助函数，用于合并两个有序数组
+func merge(left, right []int) []int { // 辅助函数，用于合并两个有序数组
 	result := make([]int, 0, len(left)+len(right)) // 初始化结果数组
 	i, j := 0, 0                                   // 定义左右指针
 	for i < len(left) && j < len(right) {          // 循环比较左右数组中的元素，并将较小的元素加入结果数组中
@@ -89,6 +89,23 @@ func merge(left, right []int) []int { // merge 辅助函数，用于合并两个
 	result = append(result, left[i:]...) // 将剩余的元素加入结果数组中
 	result = append(result, right[j:]...)
 	return result
+}
+
+func shellSort(arr []int) { //希尔排序：划分子表
+	n := len(arr)
+	gap := n / 2 // 初始步长为整个数组长度的一半
+	for gap > 0 {
+		for i := gap; i < n; i++ { // 对于每个步长进行插入排序
+			temp := arr[i] //取值
+			j := i - gap
+			for j >= 0 && arr[j] > temp { // 对于每个元素向前比较并移动
+				arr[j+gap] = arr[j]
+				j -= gap
+			}
+			arr[j+gap] = temp
+		}
+		gap /= 2 // 步长缩小为原来的一半
+	}
 }
 
 func main() {
@@ -113,4 +130,7 @@ func main() {
 
 	arr = MergeSort(arr) // 归并排序
 	fmt.Println("归并排序：", arr)
+
+	shellSort(arr) //希尔排序
+	fmt.Println("希尔排序: ", arr)
 }
