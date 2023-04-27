@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 	"sync"
 	"time"
 )
@@ -18,9 +19,10 @@ func hello1(i int) {
 
 func individualGo() { //单个goroutine
 	go hello()              //开启一个单独的goroutine用户协程，去执行hello()函数
-	fmt.Println("你好")     //由于main函数启动的goroutine结束了
+	fmt.Println("你好")       //由于main函数启动的goroutine结束了
 	time.Sleep(time.Second) //进行等待
 }
+
 func multipleGo() {
 	multipleGo()
 	for i := 0; i < 10; i++ {
@@ -29,7 +31,14 @@ func multipleGo() {
 	}
 	wg.Wait() // 等待所有登记的goroutine都结束
 }
+
 func main() {
 	//runtime.GOMAXPROCS(2) //设置cpu数
 
+}
+
+func CPUnum() { //获取CPU最大核心数
+	num := runtime.NumCPU()
+	println(num)
+	runtime.GOMAXPROCS(num)
 }

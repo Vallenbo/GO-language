@@ -44,7 +44,6 @@ func main() {
 			fmt.Println("close file failed!, err:", err)
 		}
 	}(fileObj)
-
 }
 
 func OsRead() { //3- ioutil.ReadFile读取整个文件

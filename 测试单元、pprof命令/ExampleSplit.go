@@ -9,6 +9,7 @@ func ExampleSplit() {
 	// [a b c]
 	// [ 河有 又有河]
 }
+
 func main() {
 
 }

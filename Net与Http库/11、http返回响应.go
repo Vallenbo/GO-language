@@ -13,9 +13,9 @@ type User struct {
 }
 
 func main() {
-	http.HandleFunc("/testTemplate", handler)
+	http.HandleFunc("/testTemplate", handler3)
 
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":80", nil)
 }
 
 func handler2(w http.ResponseWriter, r *http.Request) { // 1、客户端响应 html格式

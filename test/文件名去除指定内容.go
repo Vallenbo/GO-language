@@ -9,21 +9,21 @@ import (
 )
 
 func main() {
-	dir := "F:\\1" // 指定文件夹路径
+	dir := "F:\\B站视频\\由浅入深吃透Docker" // 指定文件夹路径
 	files, err := os.ReadDir(dir)
 	if err != nil {
 		fmt.Println("读取文件夹失败：", err)
 		return
 	}
 	//pattern := regexp.MustCompile(`]`) // 定义正则表达式
-	pattern := regexp.MustCompile(`】[0-9]+`) // 匹配正则表达式的内容
+	pattern := regexp.MustCompile(`.*\[[0-9]+\]`) // 匹配正则表达式的内容 // 匹配：[前不限字符，[]内1-9不限数字
 	for i, _ := range files {
 		fmt.Printf("the Name of file:%v\n", files[i].Name()) //打印目录
 		if files[i].IsDir() {                                // 跳过文件夹
 			continue
 		}
 		oldName := files[i].Name()
-		newName := pattern.ReplaceAllString(oldName, "】") // 将匹配到的内容进行替换
+		newName := pattern.ReplaceAllString(oldName, "") // 将匹配到的内容进行替换
 		//fmt.Println(newName)
 		if newName != oldName {
 			oldPath := filepath.Join(dir, oldName)

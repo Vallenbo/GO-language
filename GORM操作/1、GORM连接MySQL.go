@@ -3,13 +3,47 @@ package main
 import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
 	"log"
+	"time"
 )
+
+var db *gorm.DB
+var err error
 
 type Product struct {
 	gorm.Model
 	Code  string
 	Price uint
+}
+
+func initDB(dsn string) {
+	var err error
+	db, err = gorm.Open(mysql.New(mysql.Config{
+		DSN:               dsn,
+		DefaultStringSize: 256,
+	}), &gorm.Config{
+		Logger:      logger.Default.LogMode(logger.Info), //打印sql语句
+		PrepareStmt: true,                                //预编译sql语句，不支持嵌套事务
+	},
+	)
+	CheckPrintErr(err)
+	setPool(db)
+}
+
+func CheckPrintErr(err error) {
+	if err != nil {
+		log.Println(err)
+		return
+	}
+}
+
+func setPool(db *gorm.DB) {
+	sqlDB, err := db.DB()
+	CheckPrintErr(err)
+	sqlDB.SetMaxIdleConns(5)
+	sqlDB.SetConnMaxLifetime(time.Hour)
+	sqlDB.SetMaxOpenConns(10)
 }
 
 func main() {
@@ -21,7 +55,7 @@ func main() {
 	//db, err := gorm.Open(sqlserver.Open(dsn), &gorm.Config{}) //sqlserver 数据库
 
 	dsn := "root:123456@tcp(192.168.4.5:3306)/test?charset=utf8mb4&parseTime=True&loc=Local"
-	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
+	db, err = gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Println("connection mysql err :", err)
 	}
