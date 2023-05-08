@@ -9,14 +9,14 @@ import (
 )
 
 func main() {
-	dir := "F:\\B站视频\\由浅入深吃透Docker" // 指定文件夹路径
+	dir := "F:\\零声教育Golang云原生\\1、基础" // 指定文件夹路径
 	files, err := os.ReadDir(dir)
 	if err != nil {
 		fmt.Println("读取文件夹失败：", err)
 		return
 	}
 	//pattern := regexp.MustCompile(`]`) // 定义正则表达式
-	pattern := regexp.MustCompile(`.*\[[0-9]+\]`) // 匹配正则表达式的内容 // 匹配：[前不限字符，[]内1-9不限数字
+	pattern := regexp.MustCompile(`[0-9]+-`) // 匹配正则表达式的内容 // 匹配：[前不限字符，[]内1-9不限数字
 	for i, _ := range files {
 		fmt.Printf("the Name of file:%v\n", files[i].Name()) //打印目录
 		if files[i].IsDir() {                                // 跳过文件夹

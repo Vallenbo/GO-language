@@ -17,8 +17,7 @@ type Product struct {
 	Price uint
 }
 
-func initDB(dsn string) {
-	var err error
+func initDB(dsn string) { //初始化连接
 	db, err = gorm.Open(mysql.New(mysql.Config{
 		DSN:               dsn,
 		DefaultStringSize: 256,
@@ -29,13 +28,6 @@ func initDB(dsn string) {
 	)
 	CheckPrintErr(err)
 	setPool(db)
-}
-
-func CheckPrintErr(err error) {
-	if err != nil {
-		log.Println(err)
-		return
-	}
 }
 
 func setPool(db *gorm.DB) {
@@ -53,8 +45,20 @@ func main() {
 	//db, err := gorm.Open(sqlite.Open("gorm.db"), &gorm.Config{}) //sqlite 数据库
 	//dsn := "sqlserver://gorm:LoremIpsum86@localhost:9930?database=gorm"
 	//db, err := gorm.Open(sqlserver.Open(dsn), &gorm.Config{}) //sqlserver 数据库
-
 	dsn := "root:123456@tcp(192.168.4.5:3306)/test?charset=utf8mb4&parseTime=True&loc=Local"
+	initDB(dsn)
+	CreateTable()
+	InsertTable()
+}
+
+func CheckPrintErr(err error) {
+	if err != nil {
+		log.Println(err)
+		return
+	}
+}
+
+func test(dsn string) { //官方演示操作
 	db, err = gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Println("connection mysql err :", err)
@@ -75,5 +79,4 @@ func main() {
 	db.Model(&product).Updates(map[string]interface{}{"Price": 200, "Code": "F42"})
 
 	db.Delete(&product, 1) // Delete - 删除 product
-
 }
