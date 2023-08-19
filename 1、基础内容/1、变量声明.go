@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"strconv"
+)
+
 var (
 	name string
 	age  int
@@ -11,7 +16,7 @@ var name1 = "李明"
 
 // 常量
 const name2 = "小白"
-
+const name3 = "xxx"
 const (
 	A = iota //出现时为0
 	B
@@ -34,5 +39,15 @@ const ( //定义数量级
 )
 
 func main() {
-
+	for index, value := range name2 {
+		fmt.Printf("index: %v ,stringvalue :%v ,value :%T\n", index, string(value), value)
+	}
+	fmt.Printf("%v\n", name2+name3)
+	fmt.Printf("%v\n", strconv.Itoa(1))
 }
+
+/* 输出：
+index: 0 ,stringvalue :小 ,value :int32
+index: 3 ,stringvalue :白 ,value :int32
+小白xxx
+*/

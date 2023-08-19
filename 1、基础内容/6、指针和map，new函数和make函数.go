@@ -30,6 +30,8 @@ func main() {
 		fmt.Println("查无此人") //查无此人
 	}
 	delete(b2, "小明") //将 小明:100 从map中删除
+
+	test3()
 }
 
 func test3() { //Map的遍历

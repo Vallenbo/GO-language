@@ -11,7 +11,6 @@ var c1 int = 0xff
 var bool1 bool //布尔型，只能进行判断
 
 func main() {
-
 	fmt.Printf("八进制数%d\n", b1)  //63
 	fmt.Printf("十进制数%d\n", a1)  //10
 	fmt.Printf("十六进制数%d\n", c1) //255
