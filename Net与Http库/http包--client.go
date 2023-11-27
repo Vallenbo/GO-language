@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
@@ -41,7 +40,7 @@ func httpGet2() { //2- GET请求示例  // 内置的net/url这个标准库来处
 		return
 	}
 	defer resp.Body.Close()
-	b, err := ioutil.ReadAll(resp.Body)
+	b, err := io.ReadAll(resp.Body)
 	if err != nil {
 		fmt.Printf("get resp failed, err:%v\n", err)
 		return
@@ -66,7 +65,7 @@ func httpPost() { //3- 发送POST请求的示例
 		return
 	}
 	defer resp.Body.Close()
-	b, err := ioutil.ReadAll(resp.Body)
+	b, err := io.ReadAll(resp.Body)
 	if err != nil {
 		fmt.Printf("get resp failed, err:%v\n", err)
 		return

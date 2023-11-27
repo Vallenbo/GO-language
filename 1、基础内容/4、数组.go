@@ -34,7 +34,7 @@ func main() {
 	}
 
 	// 方法2：for range遍历
-	for index, value := range a2 {
+	for index, value := range a2[:len(a2)-1] {
 		fmt.Println(index, value)
 	}
 	//数组支持 “==“、”!=” 操作符，因为内存总是被初始化过的。

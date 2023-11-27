@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	dir := "E:\\极客时间【专栏】\\018-持续交付36讲\\images" // 指定文件夹路径
+	dir := "E:\\极客时间【专栏】\\022-Go语言核心36讲\\images" // 指定文件夹路径
 	files, err := os.ReadDir(dir)
 	if err != nil {
 		fmt.Println("读取文件夹失败：", err)

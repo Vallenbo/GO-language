@@ -8,7 +8,12 @@ import (
 
 // TCP server端
 func process(conn net.Conn) { // 处理函数
-	defer conn.Close() // 关闭连接
+	defer func(conn net.Conn) {
+		err := conn.Close()
+		if err != nil {
+
+		}
+	}(conn) // 关闭连接
 	for {
 		var buf [128]byte
 		//n, err := conn.Read(buf[:])   //从连接中读取数据

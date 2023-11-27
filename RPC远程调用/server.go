@@ -35,6 +35,6 @@ func main() {
 	defer accept.Close()
 
 	rpc.ServeConn(accept)
-	//jsonrpc.ServeConn(conn)
+	//jsonrpc.ServeConn(conn) // jsonrpc数据序列化
 
 }

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"os"
 )
@@ -30,7 +30,7 @@ func postHandler(w http.ResponseWriter, r *http.Request) { // POST请求响应�
 	fmt.Println(r.PostForm) // 打印form数据
 	fmt.Println(r.PostForm.Get("name"), r.PostForm.Get("age"))
 	// 2. 请求类型是application/json时从r.Body读取数据
-	b, err := ioutil.ReadAll(r.Body)
+	b, err := io.ReadAll(r.Body)
 	if err != nil {
 		fmt.Printf("read request.Body failed, err:%v\n", err)
 		return

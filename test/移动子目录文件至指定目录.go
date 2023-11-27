@@ -66,8 +66,8 @@ func moveFile(sourcePath, destPath string) error {
 }
 
 func main() { //将指定目录及子目录所有文件移动到指定目录下
-	sourceDirectory := "E:\\极客时间【专栏】\\212Go进阶·分布式爬虫实战【完结】\\images" // 指定源目录路径
-	destDirectory := "E:\\极客时间【专栏】\\212Go进阶·分布式爬虫实战【完结】\\images"   // 指定目标目录路径
+	sourceDirectory := "E:\\极客时间【专栏】\\022-Go语言核心36讲\\images" // 指定源目录路径
+	destDirectory := "E:\\极客时间【专栏】\\022-Go语言核心36讲\\images"   // 指定目标目录路径
 
 	err := moveFiles(sourceDirectory, destDirectory)
 	if err != nil {
