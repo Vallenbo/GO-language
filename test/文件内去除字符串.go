@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	dir := "E:\\极客时间【专栏】\\150Go语言项目开发实战" // 替换为您要处理的目录路径
+	dir := "E:\\极客时间【专栏】\\007-赵成的运维体系管理课" // 替换为您要处理的目录路径
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			log.Printf("访问文件时出错：%q: %v\n", path, err)

@@ -13,7 +13,10 @@ func handler(w http.ResponseWriter, r *http.Request) { // 1、获取请求
 	fmt.Fprintln(w, "请求头中Accept-Encoding信息是：", r.Header["Accept-Encoding"])
 	lens := r.ContentLength //获取请求体内容长度
 	body := make([]byte, lens)
-	r.Body.Read(body) //将请求体读到Body中
+	r.Body.Read(body)         //将请求体读到Body中
+	getBody, _ := r.GetBody() // GetBody()函数可以对body进行多次读取
+	getBody.Read(body)
+
 	fmt.Fprintln(w, "请求体中的内容有：", string(body))
 	r.ParseForm()
 	fmt.Fprintln(w, "表单请求参数有：", r.Form)
