@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-
 	//dial, err := rpc.Dial("tcp", "192.168.0.5:8800")
 	dial, err := jsonrpc.Dial("tcp", "192.168.0.5:8800")
 	if err != nil {

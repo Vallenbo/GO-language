@@ -10,7 +10,7 @@ import (
 type World struct {
 }
 
-func (this *World) HelloWorld(name string, resp *string) error {
+func (*World) HelloWorld(name string, resp *string) error {
 	*resp = name + " 你好！"
 	//return nil
 	return errors.New("未知的错误！")
