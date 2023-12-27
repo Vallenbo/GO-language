@@ -22,7 +22,6 @@ func main() { // 1、获取querystring参数
 }
 
 func queryForm() { //2、获取表单form参数
-
 	r := gin.Default()
 	r.POST("/login", func(c *gin.Context) {
 		//username := c.DefaultPostForm("username", "小王子")// DefaultPostForm取不到值时会返回指定的默认值
@@ -55,11 +54,6 @@ func queryPath() { //3、获取Path参数
 	})
 
 	r.Run(":8080")
-}
-
-type Login struct { // Binding from JSON
-	User     string `form:"user" json:"user" binding:"required"` //指定tag
-	Password string `form:"password" json:"password" binding:"required"`
 }
 
 func parameterBind() { //4、参数绑定

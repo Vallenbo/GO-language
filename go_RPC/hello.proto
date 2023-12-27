@@ -17,6 +17,9 @@ message HelloRequest {
   string message = 2;
 }
 
+message Test {
+  string Msg = 1;
+}
 // HelloResponse 响应内容
 message HelloResponse{
   string name = 1;

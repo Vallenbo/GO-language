@@ -40,6 +40,5 @@ func InsertTable() {
 }
 
 func Delete() {
-
 	db.Delete(&s)
 }

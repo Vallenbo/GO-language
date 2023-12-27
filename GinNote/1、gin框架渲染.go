@@ -1,6 +1,7 @@
 package main
 
 import (
+	"GoNotebook/GinNote/hello_grpc"
 	"github.com/gin-gonic/gin"
 	"html/template"
 	"net/http"
@@ -8,7 +9,8 @@ import (
 
 func main() { //1、html模板函数
 	r := gin.Default()
-	r.LoadHTMLGlob("templates/**/*")
+	//r.LoadHTMLGlob("templates/*")
+	//r.LoadHTMLGlob("templates/**")
 	//r.LoadHTMLFiles("templates/posts/index.html", "templates/users/index.html")
 	r.GET("templates/posts.html", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "templates/posts.html", gin.H{ // 返回给前端的数据gin.H (map类型)
@@ -22,6 +24,18 @@ func main() { //1、html模板函数
 		})
 	})
 
+	r.GET("/GetProtoBuf", func(c *gin.Context) { // protobuf
+		protobufData := &hello_grpc.Test{Msg: "this is the gin for returning data"}
+		c.ProtoBuf(http.StatusOK, protobufData)
+	})
+
+	r.GET("/GetPureJSON", func(c *gin.Context) { // PureJSON渲染
+		c.PureJSON(200, gin.H{
+			"html": "<b> Hello, world!</b>",
+		})
+	})
+
+	println("Gin frameWork running localhost:8080")
 	r.Run(":8080")
 }
 
@@ -79,6 +93,7 @@ func XMLTamplate() { //4、XML格式数据
 		msg.Message = "Hello world!"
 		msg.Age = 18
 		c.XML(http.StatusOK, msg)
+
 	})
 	r.Run(":8080")
 }

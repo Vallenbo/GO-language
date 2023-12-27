@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	dir := "F:\\BaiduWangPan\\mxshop" // 指定文件夹路径
+	dir := "F:\\BaiduWangPan\\" // 指定文件夹路径
 	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
 		if err != nil {
 			return err
@@ -16,7 +16,7 @@ func main() {
 		if d.IsDir() {
 			return nil
 		}
-		pattern := regexp.MustCompile(`【加微信javago6666赠送精品IT课程】`) // 匹配正则表达式的内容
+		pattern := regexp.MustCompile(`【全网最全IT资源+VX：javago6666】`) // 匹配正则表达式的内容
 		oldName := d.Name()
 		newName := pattern.ReplaceAllString(oldName, "") // 将匹配到的内容进行替换
 		if newName != oldName {
