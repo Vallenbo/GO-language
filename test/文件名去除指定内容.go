@@ -16,7 +16,7 @@ func main() {
 		if d.IsDir() {
 			return nil
 		}
-		pattern := regexp.MustCompile(`【全网最全IT资源+VX：javago6666】`) // 匹配正则表达式的内容
+		pattern := regexp.MustCompile(`\[\]`) // 匹配正则表达式的内容
 		oldName := d.Name()
 		newName := pattern.ReplaceAllString(oldName, "") // 将匹配到的内容进行替换
 		if newName != oldName {

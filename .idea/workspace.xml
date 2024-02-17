@@ -6,13 +6,41 @@
   <component name="ChangeListManager">
     <list default="true" id="34cdedf6-327a-4921-b292-fb282c223ee3" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GORM/2、CRUD操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/GORM/2、CRUD操作.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GinNote/1、gin框架渲染.go" beforeDir="false" afterPath="$PROJECT_DIR$/GinNote/1、gin框架渲染.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GinNote/2、gin获取前端参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/GinNote/2、gin获取前端参数.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/design.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/hello.proto" beforeDir="false" afterPath="$PROJECT_DIR$/go_RPC/hello.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/hello_grpc/hello.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_RPC/hello_grpc/hello.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/test.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_RPC/test.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1BasicContent/11、结构体.go" beforeDir="false" afterPath="$PROJECT_DIR$/1BasicContent/11、结构体.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestUnit/Fuzz模糊测试_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/TestUnit/Fuzz模糊测试_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ClientStream.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ClientStream.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ClientStream_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ClientStream_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ClientStream_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ClientStream_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ServerStream.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ServerStream.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ServerStream_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ServerStream_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ServerStream_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ServerStream_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/proto/grpc_ClientStream.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/proto/grpc_ClientStream.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/proto/grpc_ServerStream.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/proto/grpc_ServerStream.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc超时控制/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc超时控制/grpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc超时控制/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc超时控制/grpc_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc错误处理/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc错误处理/grpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc错误处理/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc错误处理/grpc_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc验证器/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc验证器/grpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/grpc验证器/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc验证器/grpc_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/hello.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/hello.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/hello_grpc/hello.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/hello_grpc/hello.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/metadata元数据/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/metadata元数据/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/metadata元数据/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/metadata元数据/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/rpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/rpc_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/test.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/test.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/test.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/test.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/拦截器/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/拦截器/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/拦截器/sever.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/拦截器/sever.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/通过拦截器和metadata实现grpc的auth认证/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/通过拦截器和metadata实现grpc的auth认证/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/通过拦截器和metadata实现grpc的auth认证/client2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/通过拦截器和metadata实现grpc的auth认证/client2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_RPC/通过拦截器和metadata实现grpc的auth认证/sever.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/通过拦截器和metadata实现grpc的auth认证/sever.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test2.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/文件名去除指定内容.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/文件名去除指定内容.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -50,23 +78,25 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;正在变基 master&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/GoNotebook/GinNote/hello_grpc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/project_BackEnd/ihomebj5q&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -78,10 +108,11 @@
       <recent name="E:\Project\GoNotebook\go_RPC\grpc验证器" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\GoNotebook\Go_micro_use\message" />
       <recent name="E:\Project\GoNotebook\go_RPC" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build GoNotebook/test (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoNotebook" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,13 +122,40 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GoNotebook/go_RPC/grpc验证器" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoNotebook/test (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoNotebook" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="GoNotebook/go_RPC/grpc验证器" />
+      <package value="GoNotebook/test" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go_RPC/grpc验证器/grpc_server.go" />
+      <filePath value="$PROJECT_DIR$/test/文件名去除指定内容.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GoNotebook/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoNotebook/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test/位运算.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 与或运算.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoNotebook" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test/与或运算.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build helloworld" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$/Go_micro_use/helloworld" />
+      <kind value="PACKAGE" />
+      <package value="helloworld" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Go_micro_use/helloworld/main.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -113,6 +171,12 @@
     <configuration default="true" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="&lt;No Environment&gt;" path="">
       <method v="2" />
     </configuration>
+    <configuration name="docker" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Go_micro_use/helloworld/Makefile" target="docker" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -122,6 +186,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build GoNotebook/test (1)" />
+        <item itemvalue="Go 构建.go build GoNotebook/test" />
+        <item itemvalue="Go 构建.go build 与或运算.go" />
+        <item itemvalue="Go 构建.go build helloworld" />
+        <item itemvalue="Makefile 目标.docker" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">

@@ -20,6 +20,7 @@ type person1 struct {
 func f(x person) { //
 	x.age = 30 //函数收到的值，永远是cp复制的值   //修改需要用指针
 }
+
 func f10(x *person) { //3-结构体用指针传参
 	(*x).age = 30 //方法1：修改指针内的数据
 	x.age = 30    //方法2：go语言的语法糖，自动判断接受类型是否为指针
