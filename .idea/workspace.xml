@@ -6,42 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34cdedf6-327a-4921-b292-fb282c223ee3" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1BasicContent/11、结构体.go" beforeDir="false" afterPath="$PROJECT_DIR$/1BasicContent/11、结构体.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestUnit/Fuzz模糊测试_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/TestUnit/Fuzz模糊测试_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ClientStream.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ClientStream.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ClientStream_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ClientStream_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ClientStream_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ClientStream_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ServerStream.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ServerStream.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ServerStream_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ServerStream_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/grpc_ServerStream_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/grpc_ServerStream_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/proto/grpc_ClientStream.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/proto/grpc_ClientStream.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc四种模式/proto/grpc_ServerStream.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc四种模式/proto/grpc_ServerStream.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc超时控制/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc超时控制/grpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc超时控制/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc超时控制/grpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc错误处理/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc错误处理/grpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc错误处理/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc错误处理/grpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc验证器/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc验证器/grpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/grpc验证器/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/grpc验证器/grpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/hello.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/hello.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/hello_grpc/hello.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/hello_grpc/hello.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/metadata元数据/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/metadata元数据/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/metadata元数据/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/metadata元数据/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/rpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/rpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/rpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/rpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/test.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/test.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/test.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/test.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/拦截器/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/拦截器/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/拦截器/sever.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/拦截器/sever.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/通过拦截器和metadata实现grpc的auth认证/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/通过拦截器和metadata实现grpc的auth认证/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/通过拦截器和metadata实现grpc的auth认证/client2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/通过拦截器和metadata实现grpc的auth认证/client2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_RPC/通过拦截器和metadata实现grpc的auth认证/sever.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_RPC/通过拦截器和metadata实现grpc的auth认证/sever.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test2.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/文件名去除指定内容.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/文件名去除指定内容.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
