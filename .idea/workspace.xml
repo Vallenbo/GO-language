@@ -20,7 +20,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://D:/Program Files/GOROOT/go1.21.2" />
+  <component name="GOROOT" url="file://D:/Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -40,40 +40,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;正在变基 master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/project_BackEnd/ihomebj5q&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "code.cleanup.on.save": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "js.buildTools.gulp.gulp_package_dir": "",
+    "last_opened_file_path": "E:/Project/go-language/Go_grpc/grpc四种模式/双相端流服务模式",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\双相端流服务模式" />
       <recent name="E:\Project\GoNotebook\GinNote\hello_grpc" />
       <recent name="E:\Project\GoNotebook\GinNote" />
       <recent name="E:\Project\GoNotebook\go_RPC\grpc超时控制" />
       <recent name="E:\Project\GoNotebook\go_RPC\grpc错误处理" />
-      <recent name="E:\Project\GoNotebook\go_RPC\grpc验证器" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\client端流服务模式" />
+      <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\server端流服务模式\proto" />
+      <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\server端流服务模式" />
+      <recent name="E:\Project\go-language\Go_rpc" />
       <recent name="E:\Project\GoNotebook\Go_micro_use\message" />
-      <recent name="E:\Project\GoNotebook\go_RPC" />
     </key>
   </component>
   <component name="RunManager" selected="Go 构建.go build GoNotebook/test (1)">

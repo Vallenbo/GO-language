@@ -1,0 +1,15 @@
+syntax = "proto3";
+package proto;
+option go_package = "/proto";
+
+service Calculator {
+    rpc SquareBatch(stream SquareRequest) returns (SquareResponse) {}
+}
+
+message SquareRequest {
+    int32 number = 1;
+}
+
+message SquareResponse {
+    int32 result = 1;
+}

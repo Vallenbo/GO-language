@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+option go_package = "/proto";
+
+service Calculator {
+    rpc SquareUpdates(stream SquareRequest) returns (stream SquareResponse) {}
+}
+
+message SquareRequest {
+    int32 number = 1;
+}
+
+message SquareResponse {
+    int32 result = 1;
+}
+// protoc -I . --go_out=plugins=grpc:. ./grpc_ServerStream.proto

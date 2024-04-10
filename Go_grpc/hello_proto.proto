@@ -1,0 +1,29 @@
+syntax = "proto3";  // 默认是 proto2
+package hello_proto;     // 指定生成的包名，与go_package参数一致
+option go_package = "/hello_proto";  // 指定需要生成的go包名
+// option go_package = ".;hello_proto"; // .为路径，go_proto为生成文件名
+
+enum Week {// 定义枚举类型
+  Monday = 0;   // 枚举值,必须从 0 开始.
+  Turesday = 1;
+}
+
+service HelloService {//定义grpc服务
+  rpc SayHello (Student) returns (Student) {}   // 定义grpc接口，定义接口名，传入参数 ，输出内容
+}
+
+message Student {// 定义消息体
+  int32 age = 1;  // 可以不从1开始, 但是不能重复. -- 不能使用 19000 - 19999
+  string name = 2;
+  People p = 3;
+  repeated int32 score = 4;  // 数组
+  Week w = 5; // 枚举
+  oneof data {// 联合体
+    string teacher = 6;
+    string class = 7;
+  }
+
+  message People {// 消息体可以嵌套
+    int32 weight = 1;
+  }
+}
