@@ -1,7 +1,8 @@
-package main
+package DataStructure
 
 import (
 	"fmt"
+	"testing"
 )
 
 type Graph struct {
@@ -31,7 +32,7 @@ func (g *Graph) Traverse() {
 	}
 }
 
-func main() {
+func Test_graph(T *testing.T) {
 	graph := Graph{}
 	Node11 := Node1{Value: 1}
 	Node12 := Node1{Value: 2}

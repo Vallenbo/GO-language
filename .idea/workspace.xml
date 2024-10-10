@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="34cdedf6-327a-4921-b292-fb282c223ee3" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/文件名去除指定内容.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/文件名去除指定内容.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -42,7 +46,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultGoTemplateProperty": "Go Application",
+    "DefaultGoTemplateProperty": "Go File",
+    "Go 构建.go build GoNotebook/cgo.executor": "Run",
+    "Go 构建.go build GoNotebook/test (2).executor": "Run",
+    "Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue (1).executor": "Run",
+    "Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue.executor": "Run",
+    "Go 测试.GoNotebook/mathAndRand 中的 Test_rand.executor": "Run",
+    "Go 测试.GoNotebook/webSocket 中的 Test_clent.executor": "Run",
+    "Go 测试.GoNotebook/webSocket 中的 Test_client.executor": "Run",
+    "Go 测试.GoNotebook/webSocket 中的 Test_server.executor": "Run",
+    "Go 测试.Test_treeQueue in GoNotebook/tree.executor": "Run",
+    "Go 测试.UseRand_test.go.executor": "Run",
+    "Go 测试.tree_queue_test.go.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -56,12 +71,14 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "js.buildTools.gulp.gulp_package_dir": "",
-    "last_opened_file_path": "E:/Project/go-language/Go_grpc/grpc四种模式/双相端流服务模式",
+    "last_opened_file_path": "C:/Users/98560",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
     "nodejs_package_manager_path": "npm",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,14 +90,14 @@
       <recent name="E:\Project\GoNotebook\go_RPC\grpc错误处理" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\go-language\Lock" />
+      <recent name="E:\Project\go-language\DataStructure" />
+      <recent name="E:\Project\go-language\go_zero_use\user" />
       <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\client端流服务模式" />
       <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\server端流服务模式\proto" />
-      <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\server端流服务模式" />
-      <recent name="E:\Project\go-language\Go_rpc" />
-      <recent name="E:\Project\GoNotebook\Go_micro_use\message" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build GoNotebook/test (1)">
+  <component name="RunManager" selected="Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoNotebook" />
       <working_directory value="$PROJECT_DIR$" />
@@ -90,40 +107,52 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GoNotebook/test (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GoNotebook/DataStructure 中的 Test_treeQueue (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GoNotebook/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/文件名去除指定内容.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GoNotebook/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GoNotebook/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/位运算.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 与或运算.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GoNotebook" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/与或运算.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build helloworld" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/Go_micro_use/helloworld" />
+      <working_directory value="$PROJECT_DIR$/DataStructure" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="helloworld" />
+      <package value="GoNotebook/DataStructure" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Go_micro_use/helloworld/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_treeQueue\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GoNotebook/DataStructure 中的 Test_treeQueue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$/DataStructure" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoNotebook/DataStructure" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_treeQueue\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GoNotebook/mathAndRand 中的 Test_rand" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$/mathAndRand" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoNotebook/mathAndRand" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_rand\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_treeQueue in GoNotebook/tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$/tree" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoNotebook/tree" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_treeQueue\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -136,13 +165,18 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="&lt;No Environment&gt;" path="">
+    <configuration name="tree_queue_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$/tree" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoNotebook" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tree/tree_queue_test.go" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="docker" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
-      <makefile filename="$PROJECT_DIR$/Go_micro_use/helloworld/Makefile" target="docker" workingDirectory="" arguments="">
-        <envs />
-      </makefile>
+    <configuration default="true" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="&lt;No Environment&gt;" path="">
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp">
@@ -156,13 +190,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build GoNotebook/test (1)" />
-        <item itemvalue="Go 构建.go build GoNotebook/test" />
-        <item itemvalue="Go 构建.go build 与或运算.go" />
-        <item itemvalue="Go 构建.go build helloworld" />
-        <item itemvalue="Makefile 目标.docker" />
+        <item itemvalue="Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue (1)" />
+        <item itemvalue="Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue" />
+        <item itemvalue="Go 测试.tree_queue_test.go" />
+        <item itemvalue="Go 测试.Test_treeQueue in GoNotebook/tree" />
+        <item itemvalue="Go 测试.GoNotebook/mathAndRand 中的 Test_rand" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.18034.61" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-GO-241.18034.61" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">

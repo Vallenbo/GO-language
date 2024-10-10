@@ -1,8 +1,9 @@
-package main
+package DataStructure
 
 import (
 	"fmt"
 	"math/rand"
+	"testing"
 	"time"
 )
 
@@ -108,7 +109,7 @@ func shellSort(arr []int) { //希尔排序：划分子表
 	}
 }
 
-func main() {
+func Test_sorts(*testing.T) {
 	rand.NewSource(time.Now().UnixNano()) // 生成随机数切片
 	arr := make([]int, 10)
 	for i := range arr {

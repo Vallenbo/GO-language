@@ -1,6 +1,9 @@
-package main
+package DataStructure
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 type TreeNode struct { // 定义二叉树结构体
 	data  int       // 数据域
@@ -50,7 +53,7 @@ func PostOrderTraversal(root *TreeNode) { // 后序遍历
 	PostOrderTraversal(root.right)
 	fmt.Println(root.data)
 }
-func main() {
+func Test_tree(*testing.T) {
 	data := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	root := CreateBinaryTree(data) // 创建二叉树
 	PreOrderTraversal(root)        // 前序遍历

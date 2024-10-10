@@ -1,8 +1,11 @@
-package main
+package DataStructure
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main() { //预处理结构   //前缀和数组:使查询数组中某范围内累加和，有点快
+func Test_array(t *testing.T) { //预处理结构   //前缀和数组:使查询数组中某范围内累加和，有点快
 	nums := []int{1, 2, 3, 4, 5}
 	prefixSum := make([]int, len(nums))
 	prefixSum[0] = nums[0]

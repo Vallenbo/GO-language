@@ -1,6 +1,9 @@
-package main
+package DataStructure
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 type Node struct { // 定义链表结构体
 	data interface{} // 数据域
@@ -26,7 +29,7 @@ func (list *LinkedList) AddNode(data interface{}) { // 添加节点
 }
 
 func (list *LinkedList) RemoveNode(data interface{}) { // 删除节点
-	if list.head == nil {                              // 如果链表为空，则直接返回
+	if list.head == nil { // 如果链表为空，则直接返回
 		return
 	}
 
@@ -52,7 +55,7 @@ func (list *LinkedList) Traverse() { // 遍历链表
 		node = node.next
 	}
 }
-func main() {
+func Test_LinkedList(*testing.T) {
 	list := &LinkedList{}
 	list.AddNode(1) // 添加节点
 	list.AddNode(2)
@@ -63,4 +66,3 @@ func main() {
 	list.Traverse()    // 再次遍历链表
 
 }
-

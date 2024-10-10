@@ -1,4 +1,4 @@
-package main
+package DataStructure
 
 func maxSubArrayLen(nums []int, k int) int {
 	sumMap := make(map[int]int)

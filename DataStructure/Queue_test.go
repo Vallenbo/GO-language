@@ -1,6 +1,9 @@
-package main
+package DataStructure
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 type Queue struct { // 定义队列结构体
 	data []interface{} // 数据
@@ -32,7 +35,7 @@ func (queue *Queue) Peek() interface{} { // 获取队首元素
 func (queue *Queue) IsEmpty() bool { // 判断队列是否为空
 	return len(queue.data) == 0
 }
-func main() {
+func Test_queue(*testing.T) {
 	queue := &Queue{}
 	queue.Enqueue(1) // 将元素加入队列
 	queue.Enqueue(2)

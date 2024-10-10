@@ -1,6 +1,9 @@
-package main
+package DataStructure
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 func binarySearch(arr []int, target int) int { //二分查找使时间复杂度：log（N）
 	left, right := 0, len(arr)-1
@@ -17,7 +20,7 @@ func binarySearch(arr []int, target int) int { //二分查找使时间复杂度�
 	return -1
 }
 
-func main() {
+func Test_binarySearch(*testing.T) {
 	arr := []int{1, 3, 5, 7, 9}
 
 	fmt.Println(binarySearch(arr, 3))  // Output: 1

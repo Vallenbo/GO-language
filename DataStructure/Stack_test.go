@@ -1,4 +1,4 @@
-package main
+package DataStructure
 
 import "fmt"
 
