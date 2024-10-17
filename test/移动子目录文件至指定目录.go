@@ -7,6 +7,19 @@ import (
 	"path/filepath"
 )
 
+func main() { //将指定目录及子目录所有文件移动到指定目录下
+	sourceDirectory := "E:\\迅雷下载\\216-Vue3企业级项目实战课【完结】\\images" // 指定源目录路径
+	destDirectory := "E:\\迅雷下载\\216-Vue3企业级项目实战课【完结】\\images"   // 指定目标目录路径
+
+	err := moveFiles(sourceDirectory, destDirectory)
+	if err != nil {
+		fmt.Println("Error moving files:", err)
+		return
+	}
+
+	fmt.Println("Files moved successfully.")
+}
+
 func moveFiles(sourceDirectory, destDirectory string) error {
 	err := filepath.Walk(sourceDirectory, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
@@ -63,17 +76,4 @@ func moveFile(sourcePath, destPath string) error {
 	}
 
 	return nil
-}
-
-func main() { //将指定目录及子目录所有文件移动到指定目录下
-	sourceDirectory := "E:\\极客时间【专栏】\\022-Go语言核心36讲\\images" // 指定源目录路径
-	destDirectory := "E:\\极客时间【专栏】\\022-Go语言核心36讲\\images"   // 指定目标目录路径
-
-	err := moveFiles(sourceDirectory, destDirectory)
-	if err != nil {
-		fmt.Println("Error moving files:", err)
-		return
-	}
-
-	fmt.Println("Files moved successfully.")
 }

@@ -1,6 +1,6 @@
 package main
 
-func main() {
+func Test_lengthOfLongestSubstring() {
 	lengthOfLongestSubstring("werss")
 }
 func lengthOfLongestSubstring(s string) int {

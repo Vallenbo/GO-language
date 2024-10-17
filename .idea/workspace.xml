@@ -6,10 +6,73 @@
   <component name="ChangeListManager">
     <list default="true" id="34cdedf6-327a-4921-b292-fb282c223ee3" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/10、泛型类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/10、泛型类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/1、反射.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/1、反射.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/2、并发--创建协程.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/2、并发--创建协程.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/3、并发--channel通道.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/3、并发--channel通道.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/4、并发--互斥锁与sync.Once.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/4、并发--互斥锁与sync.Once_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/5、并发--读写互斥锁与sync.Map.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/5、并发--读写互斥锁与sync.Map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/6、并发--atomic包原子操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/6、并发--atomic包原子操作.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/7、并发--context上下文.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/7、并发--context上下文.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/8、并发--context库--with系列函数.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/8、并发--context库--with系列函数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/9、泛型.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/9、泛型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/selectTest多路复用.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/selectTest多路复用.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/反射--ini文件解析.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/反射--ini文件解析.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/并发--Pool连接池.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/并发--Pool连接池.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/并发--WaitGroup与Cond.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/并发--WaitGroup与Cond.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2BasicContent2/并发test.go" beforeDir="false" afterPath="$PROJECT_DIR$/2BasicContent/并发test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/1、fmt标准库.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/fmt_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/2、os库的文件r读操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/ReaderFile_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/3、os库的文件w写操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/WriterFile_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/4、time标准库.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/timeLibrary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/5、log日志库.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/log_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/math库.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/mathLibrary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/os库--user信息.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/UserInfo_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/os库--实现cat命令.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/CatUse_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/os库--实现copy命令.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/copyFile_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3BasicContent3/strconv标准库.go" beforeDir="false" afterPath="$PROJECT_DIR$/io/strconvLibrary_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/最长子数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/maxSubArrayLen_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GORM/1、GORM连接MySQL.go" beforeDir="false" afterPath="$PROJECT_DIR$/GORM/connMysql_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GORM/2、CRUD操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/GORM/CRUD_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GORM/3、hook.go" beforeDir="false" afterPath="$PROJECT_DIR$/GORM/hook_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GORM/4、session.go" beforeDir="false" afterPath="$PROJECT_DIR$/GORM/session_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GORM/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/GORM/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/10、http获取前端请求体.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpRequest_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/11、http返回响应.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpReturnResponse_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/1、net和http包--网络编程--server.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/NetServer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/2、net和http包--网络编程--client.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/NetClient_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/3、net和http包--黏包示例--server.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/StickyPacksServer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/4、net和http包--黏包示例--client.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/StickyPacksClient_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/5、net和http包--解决黏包--server.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/SettleStickyPacksServer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/6、net和http包--解决黏包--client.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/SettleStickyPacksClient_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/7、net和http包--UDP通信--server.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/UDPServer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/8、net和http包--UDP通信--client.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/UDPClient_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/9、flag包--命令行参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/flag_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/http包--client.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpclient_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/http包--sever.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/httpSever_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/proto.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/proto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/statics/from.html" beforeDir="false" afterPath="$PROJECT_DIR$/http/statics/from.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/statics/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/http/statics/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/客户端超时取消示例-client.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/clientTimeout_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetAndHttpLibrary/客户端超时取消示例-server.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/serverTimeout_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageDependencyManagement/包管理.go" beforeDir="false" afterPath="$PROJECT_DIR$/PackageDepend/包管理.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestUnit/Benchmark性能测试_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/Benchmark性能测试_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestUnit/ExampleSplit.go" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/ExampleSplit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestUnit/Fuzz模糊测试_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/Fuzz模糊测试_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestUnit/TestMain.go" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/TestMain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestUnit/Test功能测试_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/Test功能测试_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestUnit/pprof工具.go" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/pprof工具.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestUnit/split.go" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/split.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stringtest.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/stringtest.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/文件名去除指定内容.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/文件名去除指定内容.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/移动子目录文件至指定目录.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/移动子目录文件至指定目录.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viper_use/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/viper_use/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viper_use/viper使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/viper_use/viper使用.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,60 +107,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go 构建.go build GoNotebook/cgo.executor": "Run",
-    "Go 构建.go build GoNotebook/test (2).executor": "Run",
-    "Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue (1).executor": "Run",
-    "Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue.executor": "Run",
-    "Go 测试.GoNotebook/mathAndRand 中的 Test_rand.executor": "Run",
-    "Go 测试.GoNotebook/webSocket 中的 Test_clent.executor": "Run",
-    "Go 测试.GoNotebook/webSocket 中的 Test_client.executor": "Run",
-    "Go 测试.GoNotebook/webSocket 中的 Test_server.executor": "Run",
-    "Go 测试.Test_treeQueue in GoNotebook/tree.executor": "Run",
-    "Go 测试.UseRand_test.go.executor": "Run",
-    "Go 测试.tree_queue_test.go.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "code.cleanup.on.save": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "js.buildTools.gulp.gulp_package_dir": "",
-    "last_opened_file_path": "C:/Users/98560",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "nodejs_package_manager_path": "npm",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go 构建.go build GoNotebook.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build GoNotebook/2BasicContent2.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build GoNotebook/cgo.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build GoNotebook/main.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build GoNotebook/test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build GoNotebook/test (2).executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build GoNotebook/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build GoNotebook/viper_use.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build viper使用.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/Concurrent 中的 Test_concur.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/GORM 中的 Test_createData.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/GORM 中的 Test_crud.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/gin 中的 Test_jwt.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/io 中的 Test_WriterToFile.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/io 中的 Test_openFileWrite.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/io 中的 Test_readerFile.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/io 中的 Test_stdin.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/mathAndRand 中的 Test_rand.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/net 中的 Test_NetClient.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/net 中的 Test_NetServer.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/test 中的 Test_wifeMock.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/webSocket 中的 Test_clent.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/webSocket 中的 Test_client.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.GoNotebook/webSocket 中的 Test_server.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.Test_Transaction in GoNotebook/GORM.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.Test_createData in GoNotebook/GORM.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.Test_crud in GoNotebook/GORM.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.Test_httpServer in GoNotebook/http.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.Test_sliceAdd in GoNotebook/slice.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.Test_treeQueue in GoNotebook/tree.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.UseRand_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.tree_queue_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/go-language&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\go-language" />
+      <recent name="E:\Project\go-language\gin" />
       <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\双相端流服务模式" />
       <recent name="E:\Project\GoNotebook\GinNote\hello_grpc" />
       <recent name="E:\Project\GoNotebook\GinNote" />
-      <recent name="E:\Project\GoNotebook\go_RPC\grpc超时控制" />
-      <recent name="E:\Project\GoNotebook\go_RPC\grpc错误处理" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\go-language\net" />
+      <recent name="E:\Project\go-language\io" />
+      <recent name="E:\Project\go-language\gin\html" />
       <recent name="E:\Project\go-language\Lock" />
       <recent name="E:\Project\go-language\DataStructure" />
-      <recent name="E:\Project\go-language\go_zero_use\user" />
-      <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\client端流服务模式" />
-      <recent name="E:\Project\go-language\Go_grpc\grpc四种模式\server端流服务模式\proto" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue (1)">
+  <component name="RunManager" selected="Go 构建.go build GoNotebook/main">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoNotebook" />
       <working_directory value="$PROJECT_DIR$" />
@@ -107,52 +193,61 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="GoNotebook/DataStructure 中的 Test_treeQueue (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoNotebook/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/DataStructure" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoNotebook/DataStructure" />
+      <package value="GoNotebook/main" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTest_treeQueue\E$" />
+      <filePath value="$PROJECT_DIR$/main/NetClient.go" />
       <method v="2" />
     </configuration>
-    <configuration name="GoNotebook/DataStructure 中的 Test_treeQueue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="GoNotebook/io 中的 Test_WriterToFile" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/DataStructure" />
+      <working_directory value="$PROJECT_DIR$/io" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoNotebook/DataStructure" />
+      <package value="GoNotebook/io" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_treeQueue\E$" />
+      <pattern value="^\QTest_WriterToFile\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="GoNotebook/mathAndRand 中的 Test_rand" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="GoNotebook/io 中的 Test_openFileWrite" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/mathAndRand" />
+      <working_directory value="$PROJECT_DIR$/io" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoNotebook/mathAndRand" />
+      <package value="GoNotebook/io" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_rand\E$" />
+      <pattern value="^\QTest_openFileWrite\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_treeQueue in GoNotebook/tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="GoNotebook/net 中的 Test_NetClient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/tree" />
+      <working_directory value="$PROJECT_DIR$/net" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoNotebook/tree" />
+      <package value="GoNotebook/net" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_treeQueue\E$" />
+      <pattern value="^\QTest_NetClient\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GoNotebook/net 中的 Test_NetServer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$/net" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoNotebook/net" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_NetServer\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -162,17 +257,6 @@
       <package value="GoNotebook" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tree_queue_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/tree" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="GoNotebook" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/tree/tree_queue_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
@@ -190,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue (1)" />
-        <item itemvalue="Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue" />
-        <item itemvalue="Go 测试.tree_queue_test.go" />
-        <item itemvalue="Go 测试.Test_treeQueue in GoNotebook/tree" />
-        <item itemvalue="Go 测试.GoNotebook/mathAndRand 中的 Test_rand" />
+        <item itemvalue="Go 构建.go build GoNotebook/main" />
+        <item itemvalue="Go 测试.GoNotebook/net 中的 Test_NetServer" />
+        <item itemvalue="Go 测试.GoNotebook/net 中的 Test_NetClient" />
+        <item itemvalue="Go 测试.GoNotebook/io 中的 Test_openFileWrite" />
+        <item itemvalue="Go 测试.GoNotebook/io 中的 Test_WriterToFile" />
       </list>
     </recent_temporary>
   </component>

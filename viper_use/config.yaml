@@ -2,3 +2,8 @@ name: 'user-web'
 mysql:
   host: 127.0.0.1
   port: "33060"
+
+key:
+  - value1
+  - value2
+  - value3

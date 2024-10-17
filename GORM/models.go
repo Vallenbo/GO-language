@@ -1,13 +1,42 @@
-package main
+package GORM
 
-import "gorm.io/gorm"
+import (
+	"database/sql/driver"
+	"encoding/json"
+	"gorm.io/gorm"
+)
 
+var db *gorm.DB
+var err error
+
+type Roles []string
 type Teacher struct {
-	gorm.Model
-	Name     string   `gorm:"size:256"`
-	Email    string   `gorm:"size:256"`
-	Salary   float64  `gorm:"precision:7"` // 设置为浮点数
-	Age      uint8    `gorm:"check:age>30"`
-	birthday int64    `gorm:"serializer:unixtime;type:time"`
-	Roles    []string `gorm:"type:text;serializer:json"` // 修改为 text 类型
+	Name     string  `gorm:"type:varchar(20);not null"`
+	Email    string  `gorm:"type:varchar(20);not null"`
+	Salary   float64 `gorm:"type:float"` // 设置为浮点数
+	Age      uint8   `gorm:"type:int,check:age>30"`
+	birthday int64   `gorm:"serializer:unixtime;type:time"`
+	Roles    Roles   `gorm:"type:json"` // 修改为 json 类型
+}
+
+func (t *Roles) Scan(value interface{}) error {
+	bytesValue, _ := value.([]byte)
+	return json.Unmarshal(bytesValue, t)
+}
+
+func (t Roles) Value() (driver.Value, error) {
+	return json.Marshal(t)
+}
+
+func (Teacher) TableName() string {
+	return "teacher"
+}
+
+type Product struct {
+	Code  string
+	Price uint
+}
+
+func (Product) TableName() string {
+	return "product"
 }

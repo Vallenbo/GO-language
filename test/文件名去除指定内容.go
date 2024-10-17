@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	dir := "E:\\Go工程师体系课全新版" // 指定文件夹路径
+	dir := "E:\\迅雷下载\\216-Vue3企业级项目实战课【完结】" // 指定文件夹路径
 	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
 		if err != nil {
 			return err
@@ -16,7 +16,7 @@ func main() {
 		if d.IsDir() {
 			return nil
 		}
-		pattern := regexp.MustCompile(`【加微信javago6666赠送精品IT课程】`) // 匹配正则表达式的内容
+		pattern := regexp.MustCompile(`【海量资源：.】`) // 匹配正则表达式的内容
 		oldName := d.Name()
 		newName := pattern.ReplaceAllString(oldName, "") // 将匹配到的内容进行替换
 		if newName != oldName {

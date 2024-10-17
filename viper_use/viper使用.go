@@ -20,4 +20,5 @@ func main() {
 	// 读取配置值
 	fmt.Printf("username: %s\n", viper.Get("name"))
 	fmt.Printf("username: %s\n", viper.Get("mysql"))
+	fmt.Printf("key: %s\n", viper.Get("key.0")) // 读取一个包含多个值的键
 }
