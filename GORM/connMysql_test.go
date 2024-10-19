@@ -10,6 +10,8 @@ import (
 	"time"
 )
 
+var dsn = "root:123456@tcp(192.168.5.5:3306)/test?charset=utf8mb4&parseTime=True&loc=Local"
+
 func Test_createData(T *testing.T) {
 	// 参考 https://github.com/go-sql-driver/mysql#dsn-data-source-name 获取详情
 	//dsn := "host=localhost user=gorm password=gorm dbname=gorm port=9920 sslmode=disable TimeZone=Asia/Shanghai"
@@ -17,13 +19,12 @@ func Test_createData(T *testing.T) {
 	//db, err := gorm.Open(sqlite.Open("gorm.db"), &gorm.Config{}) //sqlite 数据库
 	//dsn := "sqlserver://gorm:LoremIpsum86@localhost:9930?database=gorm"
 	//db, err := gorm.Open(sqlserver.Open(dsn), &gorm.Config{}) //sqlserver 数据库
-	dsn := "root:123456@tcp(192.168.5.5:3306)/test?charset=utf8mb4&parseTime=True&loc=Local"
-	OperatorDB(dsn)
+	OperatorDB()
 	//CreateTable()
 	//InsertTable()
 }
 
-func OperatorDB(dsn string) { //官方演示操作
+func OperatorDB() { //官方演示操作
 	db, err = gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Println("connection mysql err :", err)
@@ -51,7 +52,8 @@ func OperatorDB(dsn string) { //官方演示操作
 
 	//db.Delete(&product, 1) // Delete - 删除 product
 }
-func initDB(dsn string) { //初始化连接
+
+func initDB() { //初始化连接
 	db, err = gorm.Open(mysql.New(mysql.Config{
 		DSN:               dsn,
 		DefaultStringSize: 256,

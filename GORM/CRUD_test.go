@@ -25,7 +25,7 @@ func Test_crud(*testing.T) {
 	if err != nil {
 		log.Println("connection mysql err :", err)
 	}
-	err := db.Table("login").Where("username = test")
+	//err := db.Table("login").Where("username = test")
 
 	//InsertTable()
 	//Select()

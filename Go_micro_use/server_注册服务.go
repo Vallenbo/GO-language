@@ -3,7 +3,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"go-micro.dev/v4"
 )
 
 type ExampleService struct{}
