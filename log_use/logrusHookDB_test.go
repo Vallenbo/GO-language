@@ -6,17 +6,19 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"testing"
+	"time"
 )
 
 type LogEntry struct {
-	ID      uint   `gorm:"column:id;primaryKey;autoIncrement" comment:"自增id" json:"id"`
-	Key     string `gorm:"column:key;type:varchar(255)" comment:"日志记录匹配 索引关键值" json:"key"`
-	Level   string `gorm:"column:level;type:varchar(255)" comment:"日志level字段" json:"level"`
-	Message string `gorm:"column:message;type:text" comment:"日志内容" json:"message"`
+	ID       uint      `gorm:"column:id;primaryKey;autoIncrement" comment:"自增id" json:"id"`
+	Key      string    `gorm:"column:key;type:varchar(255)" comment:"日志记录匹配 索引关键值" json:"key"`
+	Level    string    `gorm:"column:level;type:varchar(255)" comment:"日志level字段" json:"level"`
+	Message  string    `gorm:"column:message;type:text" comment:"日志内容" json:"message"`
+	CreateAt time.Time `gorm:"column:createAt;type:datetime(3)" comment:"记录创建时间" json:"create_at"`
 }
 
 func (LogEntry) TableName() string {
-	return "logToDB"
+	return "log_to_mysql"
 }
 
 func Test_logrusHookDB(*testing.T) {
@@ -44,9 +46,10 @@ func (d *DatabaseHook) Levels() []logrus.Level {
 func (d *DatabaseHook) Fire(entry *logrus.Entry) error {
 	fmt.Printf("%+v\n", entry.Data["key"])
 	logEntry := LogEntry{
-		Key:     entry.Data["key"].(string),
-		Level:   entry.Level.String(),
-		Message: entry.Message,
+		Key:      entry.Data["key"].(string),
+		Level:    entry.Level.String(),
+		Message:  entry.Message,
+		CreateAt: time.Now(),
 	}
 	if !d.db.Migrator().HasTable("logToDB") {
 		err := d.db.AutoMigrate(&logEntry)

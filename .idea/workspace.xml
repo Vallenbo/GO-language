@@ -5,75 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34cdedf6-327a-4921-b292-fb282c223ee3" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/test/maxNumber_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/10、泛型类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/reflect/10、泛型类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/1、反射.go" beforeDir="false" afterPath="$PROJECT_DIR$/reflect/1、反射.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/2、并发--创建协程.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/2、并发--创建协程.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/3、并发--channel通道.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/3、并发--channel通道.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/4、并发--互斥锁与sync.Once_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/4、并发--互斥锁与sync.Once_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/5、并发--读写互斥锁与sync.Map.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/5、并发--读写互斥锁与sync.Map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/6、并发--atomic包原子操作.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/6、并发--atomic包原子操作.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/7、并发--context上下文.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/7、并发--context上下文.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/8、并发--context库--with系列函数.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/8、并发--context库--with系列函数.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/9、泛型.go" beforeDir="false" afterPath="$PROJECT_DIR$/reflect/9、泛型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/reflect/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/selectTest多路复用.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/selectTest多路复用.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/反射--ini文件解析.go" beforeDir="false" afterPath="$PROJECT_DIR$/reflect/反射--ini文件解析.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/并发--Pool连接池.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/并发--Pool连接池.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/并发--WaitGroup与Cond.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/并发--WaitGroup与Cond.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2BasicContent/并发test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/并发test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concurrent/concurr_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent/concurr_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GORM/CRUD_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/GORM/CRUD_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GORM/connMysql_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/GORM/connMysql_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/client端流服务模式/grpc_ClientStream.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/clientStreamMode/grpc_ClientStream.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/client端流服务模式/grpc_ClientStream_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/clientStreamMode/grpc_ClientStream_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/client端流服务模式/grpc_ClientStream_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/clientStreamMode/grpc_ClientStream_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/client端流服务模式/proto/grpc_ClientStream.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/clientStreamMode/proto/grpc_ClientStream.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/server端流服务模式/grpc_ServerStream.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/serverStreamMode/grpc_ServerStream.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/server端流服务模式/grpc_ServerStream_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/serverStreamMode/grpc_ServerStream_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/server端流服务模式/grpc_ServerStream_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/serverStreamMode/grpc_ServerStream_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/server端流服务模式/proto/grpc_ServerStream.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/serverStreamMode/proto/grpc_ServerStream.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/双向端流服务模式/grpc_ServerAndClientStream.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/ServerAndClientStreamMode/grpc_ServerAndClientStream.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/双向端流服务模式/grpc_ServerAndClientStream_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/ServerAndClientStreamMode/grpc_ServerAndClientStream_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/双向端流服务模式/grpc_ServerAndClientStream_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/ServerAndClientStreamMode/grpc_ServerAndClientStream_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc四种模式/双向端流服务模式/proto/grpc_ServerAndClientStream.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcFourMode/ServerAndClientStreamMode/proto/grpc_ServerAndClientStream.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc超时控制/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcTimeoutController/grpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc超时控制/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcTimeoutController/grpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc错误处理/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcErrHandler/grpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc错误处理/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpcErrHandler/grpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc验证器/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpValidate/grpc_client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc验证器/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpValidate/grpc_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/metadata元数据/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/metadata/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/metadata元数据/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/metadata/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/拦截器/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/Interceptor/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/拦截器/sever.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/Interceptor/sever.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/通过拦截器和metadata实现grpc的auth认证/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/InterceptorAndAuth/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/通过拦截器和metadata实现grpc的auth认证/client2.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/InterceptorAndAuth/client2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_grpc/通过拦截器和metadata实现grpc的auth认证/sever.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/InterceptorAndAuth/sever.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/client_发现服务.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/handler/helloworld.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/proto/helloworld.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/proto/helloworld.pb.micro.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/helloworld/proto/helloworld.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/message/message.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_micro_use/message/message.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/message/message.pb.micro.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_micro_use/message/message.pb.micro.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_micro_use/server_注册服务.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_micro_use/server_注册服务.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageDepend/包管理.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/1、mysql使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/DB/mysql_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GinNote/1、gin框架渲染.go" beforeDir="false" afterPath="$PROJECT_DIR$/GinNote/1、gin框架渲染.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GinNote/gin_protobufClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/gin_protobufClient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GinNote/hello_grpc/hello.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc_client.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpc_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go_grpc/grpc_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go_grpc/grpc_server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gin/jwt_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gin/jwt_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validator/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validator/single_filed.go" beforeDir="false" afterPath="$PROJECT_DIR$/validator/SingleFieldValidate_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validator/struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/validator/StructValidate_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validator/vaildator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_use/logrusHookDB_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/log_use/logrusHookDB_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/NetClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/NetClient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/NetClient_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/NetClient_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/NetServer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/net/NetServer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/maxNumber.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stringtest.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/stringtest_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/test1_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_comput.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/comput_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/wifiMock_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/wifiMock_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/位运算.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/and_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/分金币.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/allotGold_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/数组求长度.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/arrayLen_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/文件内去除字符串.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/fileDelStr_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/文件名去除指定内容.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/fileNameDelContext_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/移动子目录文件至指定目录.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/mvSubDirToOther_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viper_use/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/viper_use/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viper_use/viper使用.go" beforeDir="false" afterPath="$PROJECT_DIR$/viper_use/viper_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -110,7 +72,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
     &quot;Go 构建.go build GoNotebook.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build GoNotebook/2BasicContent2.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build GoNotebook/cgo.executor&quot;: &quot;Run&quot;,
@@ -119,6 +81,8 @@
     &quot;Go 构建.go build GoNotebook/test (2).executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build GoNotebook/test.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build GoNotebook/viper_use.executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build go-language/main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go 构建.go build go-language/main.executor&quot;: &quot;Run&quot;,
     &quot;Go 构建.go build viper使用.go.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.GoNotebook/Concurrent 中的 Test_concur.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.GoNotebook/DataStructure 中的 Test_treeQueue (1).executor&quot;: &quot;Run&quot;,
@@ -148,10 +112,22 @@
     &quot;Go 测试.Test_sliceAdd in GoNotebook/slice.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.Test_treeQueue in GoNotebook/tree.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.UseRand_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/cron 中的 Test_cron.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/fakeData 中的 Test_fakeIP4.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.go-language/log 中的 Test_LogrusHook.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.go-language/log 中的 Test_logrusHook.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.go-language/log_use 中的 Test_LogrusHook (1).executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.go-language/log_use 中的 Test_LogrusHook.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/midServer 中的 Test_conEtcd.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/net 中的 Test_NetClient.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/net 中的 Test_NetServer.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/runtime_use 中的 Test_runtime.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/test 中的 Test_IPMaskSegment.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/test 中的 Test_fileNameDelContext.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/test 中的 Test_generateCidr.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/test 中的 Test_ip (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/test 中的 Test_ip.executor&quot;: &quot;Run&quot;,
+    &quot;Go 测试.go-language/viper_use 中的 Test_viperListenConf.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.log_use 中的 Test_LogrusHook.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.log_use 中的 Test_logrusHookDB.executor&quot;: &quot;Run&quot;,
     &quot;Go 测试.tree_queue_test.go.executor&quot;: &quot;Run&quot;,
@@ -170,18 +146,19 @@
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/go-language&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/98560&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+      &quot;mysql&quot;,
+      &quot;clickhouse&quot;
     ]
   }
 }</component>
@@ -194,14 +171,14 @@
       <recent name="E:\Project\GoNotebook\GinNote" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\go-language\Go_grpc" />
+      <recent name="E:\Project\go-language\runtime_use" />
       <recent name="E:\Project\go-language\Concurrent" />
       <recent name="E:\Project\go-language\main" />
       <recent name="E:\Project\go-language\net" />
-      <recent name="E:\Project\go-language\io" />
-      <recent name="E:\Project\go-language\gin\html" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 测试.log_use 中的 Test_logrusHookDB">
+  <component name="RunManager" selected="Go 测试.go-language/test 中的 Test_fileNameDelContext">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoNotebook" />
       <working_directory value="$PROJECT_DIR$" />
@@ -221,62 +198,143 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="go-language/log 中的 Test_LogrusHook" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="&lt;No Environment&gt;" path="">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="goNote" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoNotebook" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-language/main (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goNote" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-language/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main/generateIPsegment.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-language/main (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/log" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-language/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main/generateIPsegment.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-language/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goNote" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-language/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main/etcdConn.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-language/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-language/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main/etcdConn.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="goNote" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="GoNotebook" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go-language/midServer 中的 Test_conEtcd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goNote" />
+      <working_directory value="$PROJECT_DIR$/midServer" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-language/log" />
+      <package value="go-language/midServer" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_LogrusHook\E$" />
+      <pattern value="^\QTest_conEtcd\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go-language/log_use 中的 Test_LogrusHook (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go-language/midServer 中的 Test_conEtcd" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/log_use" />
+      <working_directory value="$PROJECT_DIR$/midServer" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-language/log_use" />
+      <package value="go-language/midServer" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_LogrusHook\E$" />
+      <pattern value="^\QTest_conEtcd\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go-language/log_use 中的 Test_LogrusHook" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/log_use" />
+    <configuration name="go-language/test 中的 Test_fileNameDelContext" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goNote" />
+      <working_directory value="$PROJECT_DIR$/test" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-language/log_use" />
+      <package value="go-language/test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_LogrusHook\E$" />
+      <pattern value="^\QTest_fileNameDelContext\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="log_use 中的 Test_LogrusHook" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go-language/test 中的 Test_fileNameDelContext" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/log_use" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="log_use" />
+      <package value="go-language/test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_LogrusHook\E$" />
+      <pattern value="^\QTest_fileNameDelContext\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="log_use 中的 Test_logrusHookDB" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GoNotebook" />
-      <working_directory value="$PROJECT_DIR$/log_use" />
+    <configuration name="go-language/test 中的 Test_ip (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goNote" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="log_use" />
+      <package value="go-language/test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTest_logrusHookDB\E$" />
+      <pattern value="^\QTest_ip\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go-language/test 中的 Test_ip (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoNotebook" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-language/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_ip\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" environment="&lt;No Environment&gt;" path="">
@@ -293,19 +351,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 测试.log_use 中的 Test_logrusHookDB" />
-        <item itemvalue="Go 测试.log_use 中的 Test_LogrusHook" />
-        <item itemvalue="Go 测试.go-language/log_use 中的 Test_LogrusHook (1)" />
-        <item itemvalue="Go 测试.go-language/log_use 中的 Test_LogrusHook" />
-        <item itemvalue="Go 测试.go-language/log 中的 Test_LogrusHook" />
+        <item itemvalue="Go 测试.go-language/test 中的 Test_fileNameDelContext" />
+        <item itemvalue="Go 构建.go build go-language/main" />
+        <item itemvalue="Go 测试.go-language/midServer 中的 Test_conEtcd" />
+        <item itemvalue="Go 构建.go build go-language/main (1)" />
+        <item itemvalue="Go 测试.go-language/test 中的 Test_ip (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.18034.61" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-GO-241.18034.61" />
+        <option value="bundled-gosdk-5df93f7ad4aa-df9ad98b711f-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.23339.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-GO-242.23339.24" />
       </set>
     </attachedChunks>
   </component>

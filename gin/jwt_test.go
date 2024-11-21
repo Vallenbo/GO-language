@@ -43,7 +43,6 @@ func TestJwt(t *testing.T) {
 	// 需要认证的路由
 	api := r.Group("/api", authMiddleware())
 	api.GET("/protected", func(c *gin.Context) {
-		c.BindJSON()
 		c.JSON(http.StatusOK, gin.H{"message": "欢迎，" + c.MustGet("username").(string)})
 	})
 
